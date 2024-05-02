@@ -193,8 +193,8 @@ export const seoData: SEODataType = {
   title: "Alfian Kafilah Ba'its",
   description: greetings.description,
   author: "Alfian",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  image: "https://avatars.githubusercontent.com/alfiannnas",
+  url: "https://alfian-portfolio.vercel.app/",
   keywords: [
     "Alfian",
     "Alfian Kafilah",
