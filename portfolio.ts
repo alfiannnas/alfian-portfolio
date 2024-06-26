@@ -116,7 +116,7 @@ export const educationInfo: EducationType[] = [
     schoolName: "Institut Teknologi Sumatera",
     subHeader: "Bachelor of Informatics Engineering",
     duration: "Agustus 2020 - Juli 2024",
-    desc: "",
+    desc: "IPK: 3.71 / 4.00",
     grade: "Grade A",
     descBullets: [], // Array of Strings
   },
@@ -124,30 +124,42 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: "Machine Learning Mentor",
+    company: "Bangkit Academy",
+    companyLogo: "/img/icons/common/bangkit.jpg",
+    date: "Feb 2024 - Present",
+    desc: "Allocated time of about ~20 hours/week to lead, assist, coach, and advise a cohort of 25 students to ensure they have the knowledge and skills necessary to graduate from the Machine learning path and Assessed mentees` Machine Learning capabilities and identified areas for improvement.",
+  },
+  {
     role: "Front End Developer",
     company: "PT Digital Forte Indonesia",
     companyLogo: "/img/icons/common/dfi.png",
     date: "Aug 2023 - Jul 2023",
     desc: "I Made low-fidelity and high-fidelity design and transform low-fidelity UI mockups to high-fidelity prototypes into functional code. Then, I collaborate with backend developers to ensure seamless integration between front end and back end. After that, I tested the system using black box testing ",
   },
+
   {
-    role: "Machine Learning Mentor",
+    role: "Laboratory Assistant of Database",
+    company: "Institut Teknologi Sumatera",
+    companyLogo: "/img/icons/common/itera.png",
+    date: "Mar 2023 - May 2023",
+    desc: "Guided and taught 52 students about basic into advance database learning materials, Create modules and powerpoints with relevant explanations, Objectively assess the practicum modules, and Facilitated interactive learning sessions to enhance student engagement and understanding.",
+  },
+  {
+    role: "Machine Learning Cohort",
     company: "Bangkit Academy",
     companyLogo: "/img/icons/common/bangkit.jpg",
-    date: "Feb 2023 - Present",
-    desc: "Allocated time of about ~20 hours/week to lead, assist, coach, and advise a cohort of 25 students to ensure they have the knowledge and skills necessary to graduate from the Machine learning path and Assessed mentees` Machine Learning capabilities and identified areas for improvement.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    date: "Feb 2023 - Jul 2023",
+    desc: "Preprocess data and train the model. Then, evaluate model performance and make recommendations for improvements. Become a Project Manager and collaborate with cross-functional teams to identify business opportunities, and Become a Top 60 team capstone project out of 678 teams",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "Presensiku",
+    name: "Sikap!",
     desc: "A web platform where users can easily make a presence based on location and camera. And users can make a permission for annual leave.",
     github: "https://github.com/alfiannnas/pti-sikap/tree/backend",
+    link: "https://ressa-abadi.my.id/",
   },
   {
     name: "SkinCer-In",
@@ -165,30 +177,13 @@ export const projects: ProjectType[] = [
     github: "https://github.com/alfiannnas/web-osis",
     link: "https://osimmasmuallimin.my.id/",
   },
-];
-
-export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
-    feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-  },
-  {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
-    feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+    name: "Pension Website",
+    desc: "Develop website at BKPSDM Padang City that effectively manages and displays detailed employee data, including their retirement dates.",
+    github: "https://github.com/alfiannnas/web-pensiun-laravel",
   },
 ];
 
-// See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: "Alfian Kafilah Ba'its",
   description: greetings.description,
@@ -203,5 +198,8 @@ export const seoData: SEODataType = {
     "Portfolio Alfian",
     "@alfiankafilah",
     "alfiankafilahbaits",
+    "alfian kafilah",
+    "alfian kafilah itera",
+    "alfian kafilah informatika itera",
   ],
 };
