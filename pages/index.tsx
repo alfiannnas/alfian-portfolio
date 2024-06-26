@@ -11,6 +11,7 @@ const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
+import ScrollToTop from "react-scroll-to-top";
 
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
@@ -24,6 +25,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <Experience />
       <Projects />
       <GithubProfileCard {...githubProfileData} />
+      <ScrollToTop smooth color="#6f00ff" />
     </div>
   );
 }
