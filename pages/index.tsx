@@ -11,6 +11,7 @@ import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
 import ScrollToTop from "react-scroll-to-top";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
@@ -25,6 +26,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <Projects />
       <GithubProfileCard {...githubProfileData} />
       <ScrollToTop smooth color="#6f00ff" />
+      <Analytics />
     </div>
   );
 }
