@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I Am Alfian",
   description:
     "I'm a passionate Full Stack web developer. And, i have Certified and experienced in the fields of data science and machine learning, I possess a strong foundation in analyzing data, developing statistical models, and creating algorithms. I eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. ",
-  resumeLink: "https://drive.google.com/file/d/1zQHnbzS1MXWOI-SOAk0PoIAFfj4WSadg/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1O8MooCPBCxj4dqtLOQSld6blmm9cqS32/view?usp=sharing",
 };
 
 export const openSource = {
