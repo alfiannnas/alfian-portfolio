@@ -25,8 +25,8 @@ const Greetings = () => {
             <span />
             <span />
           </div>
-          <Container className="py-lg-md d-flex">
-            <div className="col px-0">
+          <Container className="py-lg-lg d-flex">
+            <div className="col px-0 mt-5">
               <Row>
                 <Col lg="6">
                   <h1 className="display-3 text-white mt-5">{greetings.title + " "}</h1>
@@ -63,7 +63,7 @@ const Greetings = () => {
               x="0"
               y="0"
             >
-              <polygon className="fill-white" points="2560 0 2560 100 0 100" />
+              <polygon className="fill-white" points="2660 0 2660 100 0 100" />
             </svg>
           </div>
         </section>

@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: "Alfian Kafilah B",
   title: "Hi all, I Am Alfian",
   description:
-    "I'm a passionate Full Stack web developer. And, i have Certified and experienced in the fields of data science and machine learning, I possess a strong foundation in analyzing data, developing statistical models, and creating algorithms. I eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. ",
+    " As a skilled Software Engineer specializing in web development with Angular and Laravel, I have a solid foundation in building dynamic and efficient applications. Also, with certifications and experience in Data Science and Machine Learning.  I eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. Skilled in working under pressure and adapting to new situations and challenges to best enchance the organizational brand",
   resumeLink: "https://drive.google.com/file/d/1O8MooCPBCxj4dqtLOQSld6blmm9cqS32/view?usp=sharing",
 };
 
@@ -29,8 +29,6 @@ export const socialLinks: SocialLinksType = {
   linkedin: "https://www.linkedin.com/in/alfiankafilah/",
   github: "https://github.com/alfiannnas",
   instagram: "https://www.instagram.com/alfiankafilah",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -41,7 +39,7 @@ export const skillsSection: SkillsSectionType = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building Responsive Website in Laravel/React.js"),
+        emoji("⚡ Building Responsive Website in Laravel, Angular, and React"),
         emoji("⚡ Building AI/Machine Learning Model"),
         emoji("⚡Designing Intuitive User Interfaces and Engaging User Experiences for Mobile/Web Platform"),
       ],
@@ -93,8 +91,8 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    Stack: "Frontend/Design",
+    progressPercentage: "85",
   },
   {
     Stack: "Backend",
@@ -117,7 +115,7 @@ export const educationInfo: EducationType[] = [
     duration: "Agustus 2020 - Juli 2024",
     desc: "IPK: 3.71 / 4.00",
     grade: "Grade A",
-    descBullets: [], // Array of Strings
+    descBullets: [],
   },
 ];
 
