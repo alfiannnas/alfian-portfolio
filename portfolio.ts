@@ -15,7 +15,6 @@ export const greetings: GreetingsType = {
   title: "Hi all, I Am Alfian",
   description:
     " As a skilled Software Engineer specializing in web development with Angular and Laravel, I have a solid foundation in building dynamic and efficient applications. Also, with certifications and experience in Data Science and Machine Learning.  I eager to contribute to team success through hard work, attention to detail, and excellent organizational skills. Skilled in working under pressure and adapting to new situations and challenges to best enchance the organizational brand",
-  resumeLink: "https://drive.google.com/file/d/1O8MooCPBCxj4dqtLOQSld6blmm9cqS32/view?usp=sharing",
 };
 
 export const openSource = {
